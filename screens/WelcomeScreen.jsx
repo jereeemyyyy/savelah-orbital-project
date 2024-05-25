@@ -14,7 +14,7 @@ export default function WelcomeScreen() {
                         "Insert Some Image Here"
                     </Text>
                 </View>
-                <Text className="font-bold text-white text-4xl">
+                <Text className="font-bold text-white text-4xl px-5 ">
                     Easiest way to manage your finances!
                 </Text>
                 <View>
@@ -22,7 +22,7 @@ export default function WelcomeScreen() {
                         onPress={() => navigation.navigate('SignUp')}
                         className="py-3 bg-gray-500 mx-7 rounded-xl">
                         <Text className="text-white font-bold text-center text-xl">
-                            Sign Up
+                            Get started
                         </Text>
                     </TouchableOpacity>
                     <View className="flex-row justify-center">
@@ -30,7 +30,7 @@ export default function WelcomeScreen() {
                             Already have an account?
                         </Text>
                         <TouchableOpacity onPress={() => navigation.navigate('Login')}>
-                            <Text className="text-blue-500 font-semibold py-3 px-2">
+                            <Text className="text-indigo-500 font-semibold py-3 px-2">
                                 Login
                             </Text>
                         </TouchableOpacity>
