@@ -19,7 +19,7 @@ export default function LoginScreen() {
                     </TouchableOpacity>
                 </View>
                 <View className="flex-row justify-center align-items-center pl-7 pt-14 pb-14">
-                    <Image source={require('../assets/images/logo.png')} 
+                    <Image source={require('../../assets/images/logo.png')} 
                            style={{width: 300, height: 80}}/>
                 </View>     
             </SafeAreaView>
@@ -48,15 +48,15 @@ export default function LoginScreen() {
                     </Text>
                     <View className="flex-row justify-center space-x-12">
                         <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
-                            <Image source={require('../assets/images/google.png')}
+                            <Image source={require('../../assets/images/google.png')}
                                 className="w-10 h-10"/>
                         </TouchableOpacity>
                         <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
-                            <Image source={require('../assets/images/apple.png')}
+                            <Image source={require('../../assets/images/apple.png')}
                                 className="w-10 h-10"/>
                         </TouchableOpacity>
                         <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
-                            <Image source={require('../assets/images/facebook.png')}
+                            <Image source={require('../../assets/images/facebook.png')}
                                 className="w-10 h-10"/>
                         </TouchableOpacity>
                     </View>

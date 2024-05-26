@@ -18,10 +18,14 @@ export default function SignUpScreen() {
                         <ArrowLeftIcon size="20" color="white"/>
                     </TouchableOpacity>
                 </View>
-                <View className="flex-row justify-center align-items-center pl-7 pt-14 pb-14">
-                    <Image source={require('../assets/images/logo.png')} 
-                           style={{width: 150, height: 30}}/>
+                <View className="flex-row  pl-7 pt-1">
+                    <Text className="text-white font-bold text-4xl text-left">Registration</Text>   
                 </View>     
+                <View className="flex-row  pl-7 pb-1">
+                    <Text className="text-gray-400 font-bold text-m text-left">
+                        Create an account to continue
+                    </Text>   
+                </View> 
             </SafeAreaView>
             <View className="flex-1 bg-white px-8 pt-8"
                     style={{borderTopLeftRadius: 50, borderTopRightRadius: 50}}>
@@ -42,6 +46,12 @@ export default function SignUpScreen() {
                         value="test12356"
                         placeholder="Enter Password"
                     />
+                    <Text className="text-gray-700 ml-4">Repeat Password</Text>
+                    <TextInput className="p-4 bg-gray-100 text-gray-700 rounded-2xl mb-5"
+                        secureTextEntry={true}
+                        value="test12356"
+                        placeholder="Enter Password"
+                    />
                     <TouchableOpacity className="py-3 bg-indigo-500 rounded-xl">
                         <Text className="font-xl font-bold text-center text-white">Sign Up</Text>
                     </TouchableOpacity>
@@ -50,15 +60,15 @@ export default function SignUpScreen() {
                     </Text>
                     <View className="flex-row justify-center space-x-12">
                         <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
-                            <Image source={require('../assets/images/google.png')}
+                            <Image source={require('../../assets/images/google.png')}
                                 className="w-10 h-10"/>
                         </TouchableOpacity>
                         <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
-                            <Image source={require('../assets/images/apple.png')}
+                            <Image source={require('../../assets/images/apple.png')}
                                 className="w-10 h-10"/>
                         </TouchableOpacity>
                         <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
-                            <Image source={require('../assets/images/facebook.png')}
+                            <Image source={require('../../assets/images/facebook.png')}
                                 className="w-10 h-10"/>
                         </TouchableOpacity>
                     </View>

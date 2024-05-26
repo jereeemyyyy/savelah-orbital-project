@@ -1,10 +1,10 @@
 import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from '../screens/HomeScreen';
-import WelcomeScreen from '../screens/WelcomeScreen';
-import LoginScreen from '../screens/LoginScreen';
-import SignUpScreen from '../screens/SignUpScreen'
+import HomeScreen from './screens/home/HomeScreen';
+import WelcomeScreen from './screens/startpage/WelcomeScreen';
+import LoginScreen from './screens/startpage/LoginScreen';
+import SignUpScreen from './screens/startpage/SignUpScreen'
 
 export default function App() {
 
