@@ -11,9 +11,7 @@ export default function LoginScreen() {
     return (
         <View className="flex-1 bg-gray-800">
             <SafeAreaView className="flex" >
-                <View className="flex-row justify-start">
-                    <BackButton/>
-                </View>
+                <BackButton/>
                 <View className="flex-row justify-center align-items-center pl-7 pt-14 pb-14">
                     <Image source={require('../../assets/images/logo.png')} 
                            style={{width: 340, height: 80}}/>
