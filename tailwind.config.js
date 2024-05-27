@@ -8,7 +8,8 @@ module.exports = {
             "./app/screens/startpage/components/SocialMediaIcons.{js,jsx,ts,tsx}",
             "./app/screens/startpage/components/LoginCard.{js,jsx,ts,tsx}",
             "./app/components/BackButton.{js,jsx,ts,tsx}",
-            "./app/screens/startpage/components/RegistrationCard.{js,jsx,ts,tsx}"],
+            "./app/screens/startpage/components/RegistrationCard.{js,jsx,ts,tsx}",
+            "./app/screens/home/HomeScreen.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
   },

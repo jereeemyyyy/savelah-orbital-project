@@ -1,9 +1,8 @@
  import { Text, View } from 'react-native';
- import { useNavigation } from '@react-navigation/native';
+ import { BackButton } from '../../components/BackButton';
 
  export default function HomeScreen() {
 
-    const navigation = useNavigation();
     
         return (
             <View>
