@@ -1,10 +1,10 @@
  import { Text, View } from 'react-native';
  import  BackButton  from '../../components/BackButton';
-
+ 
  export default function HomeScreen() {
-
-    
         return (
-         <BackButton/>       
-        );
-    }
+            <View>
+                <Text className="font-bold text-xl">Home Screen</Text>
+            </View>
+        );       
+}

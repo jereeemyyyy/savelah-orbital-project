@@ -23,7 +23,7 @@ export default function LoginCard() {
         setLoading(false);
 
         // If login is successful, navigate to the Home Screen
-        navigation.navigate('Home');
+        navigation.navigate('NavigationBar');
     }
     
     return (
