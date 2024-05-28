@@ -1,9 +1,12 @@
 import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 import { useState } from 'react';
 import { supabase } from '../../../../lib/supabase';
+import { useNavigation } from "@react-navigation/native";
 
 export default function RegistrationCard() {
 
+    const navigation = useNavigation();
+    
     const[firstname, setFirstname] = useState('');
     const[lastname, setLastname] = useState('');
     const[email, setEmail] = useState('');
@@ -44,6 +47,9 @@ export default function RegistrationCard() {
 
         Alert.alert("User signed up successfully");
         setLoading(false); 
+
+        // If login is successful, navigate to the Home Screen
+        navigation.navigate('Home');
     }
 
     return(
